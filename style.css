@@ -12,8 +12,8 @@ html {
 
 h1 {
     font-size: 4rem;
-    color: white;
-    text-shadow: -0.5px -0.5px 0 #a18e1e, 0.5px -0.5px 0 #a18e1e, -0.5px 0.5px 0 #a18e1e, 0.5px 0.5px 0 #a18e1e;
+    color: rgb(155, 211, 233);
+    text-shadow: -3px -3px 0 black;
 }
 
 hr {
