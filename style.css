@@ -65,3 +65,39 @@ body {
 	box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
 		0px 2px 5px #999;
 }
+
+.back-btn {
+	margin-right: 1em;
+	padding: 1rem 2rem;
+	font-size: 1em;
+	color: rgb(163, 163, 163);
+	font-weight: bold;
+	background: rgb(8, 29, 37);
+	border: rgb(8, 29, 37);
+	border-radius: 20px;
+	outline: none;
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		0px 5px 5px #999;
+	-webkit-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		0px 5px 5px #999;
+	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		0px 5px 5px #999;
+}
+
+.back-btn:hover,
+.back-btn:active {
+	background: rgb(16, 67, 87);
+	border: rgb(16, 67, 87);
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	color: rgb(223, 231, 234);
+	-webkit-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+		0px 2px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+		0px 2px 5px #999;
+	box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+		0px 2px 5px #999;
+}
