@@ -4,36 +4,36 @@ body {
 	font-family: "Montserrat";
 }
 
-#bk-img {
+.background {
 	background: url(background.jpg);
 	background-size: cover;
 }
 
-#page-contents {
+.page-contents {
 	text-align: center;
 	vertical-align: middle;
 }
 
-#slogan {
+.slogan {
 	font-size: 6rem;
 	padding: 0.2em 0 0 0;
 }
 
-#code {
+.code {
 	color: rgb(135, 56, 199);
 	text-shadow: 3px 3px 0 rgb(240, 240, 240);
 }
-#in-your-amazing {
+.in-your-amazing {
 	color: rgb(60, 174, 219);
 	text-shadow: 3px 3px 0 whitesmoke;
 }
-#mode {
+.mode {
 	color: rgb(164, 84, 230);
 	text-shadow: none;
 	text-shadow: 3px 3px 0 white;
 }
 
-#find-out-btn {
+.find-out-btn {
 	padding: 2.5rem 4rem;
 	font-size: 2.2em;
 	background: rgb(60, 174, 219);
@@ -49,15 +49,15 @@ body {
 		0px 10px 5px #999;
 }
 
-#find-out-btn:hover,
-#find-out-btn:active {
+.find-out-btn:hover,
+.find-out-btn:active {
 	background: rgb(32, 106, 136);
 	border: rgb(40, 130, 165);
 	color: white;
 	font-weight: bold;
 	cursor: pointer;
 	outline: none;
-	color: #dfe7ea;
+	color: rgb(223, 231, 234);
 	-webkit-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
 		0px 2px 5px #999;
 	-moz-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
