@@ -16,14 +16,17 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat";
+  overflow: hidden;
 }
 h1 {
   margin: 0;
 }
 
 .background {
-  background: url(background.jpg);
+  background: url(background.jpg) no-repeat center;
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 
 .page-contents {
@@ -32,8 +35,8 @@ h1 {
 }
 
 .slogan {
-  font-size: 6rem;
-  margin: 7rem 0;
+  font-size: 4.25rem;
+  margin-top: 5rem;
 }
 
 .code {
@@ -46,11 +49,15 @@ h1 {
 }
 .mode {
   color: #a454e6;
-  text-shadow: none;
   text-shadow: 3px 3px 0 white;
 }
 
 /* ---------------BUTTONS------------- */
+.buttons {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .find-out-btn,
 .back-btn {
   outline: none;
@@ -60,22 +67,23 @@ h1 {
 }
 
 .find-out-btn {
-  font-size: 2.2rem;
-  padding: 2.5rem 4rem;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  padding: 1.75rem 2.5rem;
   background: #3caedb;
   border: #3caedb;
   border-radius: 30px;
 }
 
 .back-btn {
+  margin-top: 1rem;
   font-size: 1rem;
   padding: 1rem 2rem;
-  background: #081d25;
-  font-weight: bold;
-  border: #081d25;
   border-radius: 20px;
-  margin-right: 1rem;
+  background: #081d25;
+  border: #081d25;
   color: #a3a3a3;
+  font-weight: bold;
 }
 
 .find-out-btn:hover,

@@ -1,0 +1,25 @@
+/* DESKTOP */
+@media only screen and (min-width: 930px) {
+  .slogan {
+    font-size: 6rem;
+    margin-top: 7rem;
+  }
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-out-btn {
+    font-size: 2.2rem;
+    padding: 2.5rem 4rem;
+    border-radius: 30px;
+    margin-top: 4rem;
+  }
+  .back-btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-right: 1rem;
+  }
+}
