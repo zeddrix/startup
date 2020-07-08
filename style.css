@@ -47,10 +47,13 @@ body {
   text-shadow: 3px 3px 0 white;
 }
 
+/* ---------------BUTTONS------------- */
 .find-out-btn,
 .back-btn {
   outline: none;
   text-shadow: 0 -1px 0px #0000004d;
+  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    0px 10px 5px #999;
 }
 
 .find-out-btn {
@@ -59,21 +62,17 @@ body {
   background: #3caedb;
   border: #3caedb;
   border-radius: 30px;
-  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 10px 5px #999;
 }
 
 .back-btn {
-  font-weight: bold;
   font-size: 1em;
-  margin-right: 1em;
   padding: 1rem 2rem;
   background: #081d25;
+  font-weight: bold;
   border: #081d25;
-  color: #a3a3a3;
   border-radius: 20px;
-  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 5px 5px #999;
+  margin-right: 1em;
+  color: #a3a3a3;
 }
 
 .find-out-btn:hover,
@@ -84,18 +83,16 @@ body {
   font-weight: bold;
   cursor: pointer;
   outline: none;
+  box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+    0px 2px 5px #999;
 }
 
 .find-out-btn:hover,
 .find-out-btn:active {
   background: #206a88;
-  box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 2px 5px #999;
 }
 
 .back-btn:hover,
 .back-btn:active {
   background: #104357;
-  box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 2px 5px #999;
 }
