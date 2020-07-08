@@ -59,10 +59,6 @@ body {
   background: #3caedb;
   border: #3caedb;
   border-radius: 30px;
-  -moz-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 10px 5px #999;
-  -webkit-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 10px 5px #999;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
     0px 10px 5px #999;
 }
@@ -76,10 +72,6 @@ body {
   border: #081d25;
   color: #a3a3a3;
   border-radius: 20px;
-  -moz-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 5px 5px #999;
-  -webkit-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 5px 5px #999;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
     0px 5px 5px #999;
 }
@@ -97,10 +89,6 @@ body {
 .find-out-btn:hover,
 .find-out-btn:active {
   background: #206a88;
-  -webkit-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 2px 5px #999;
-  -moz-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 2px 5px #999;
   box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
     0px 2px 5px #999;
 }
@@ -108,10 +96,6 @@ body {
 .back-btn:hover,
 .back-btn:active {
   background: #104357;
-  -webkit-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 2px 5px #999;
-  -moz-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 2px 5px #999;
   box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
     0px 2px 5px #999;
 }
