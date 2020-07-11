@@ -1,3 +1,32 @@
+/* SMALLER PHONES */
+@media only screen and (max-width: 359px) {
+  .slogan {
+    font-size: 3.25rem;
+    margin-top: 2rem;
+  }
+  .buttons {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-out-btn {
+    font-size: 1rem;
+    padding: 1.3rem 1.25rem;
+    border-radius: 70px;
+  }
+  .back-btn {
+    font-size: 0.75rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-right: 1rem;
+  }
+  .find-out-btn,
+  .back-btn {
+    box-shadow: inset 0px 1px 0px grey, 0px 6px 0px 0px lightgrey,
+      0px 9px 5px #999;
+  }
+}
+
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
   .slogan {
