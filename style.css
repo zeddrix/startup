@@ -68,8 +68,6 @@ h1 {
 .back-btn {
   outline: none;
   text-shadow: 0 -1px 0px #0000004d;
-  box-shadow: inset 0px 1px 0px grey, 0px 8px 0px 0px lightgrey,
-    0px 12px 5px #999;
 }
 
 .find-out-btn {
@@ -79,6 +77,8 @@ h1 {
   background: #3caedb;
   border: #3caedb;
   border-radius: 40px;
+  box-shadow: inset 0px 1px 0px grey, 0px 6px 0px 0px lightgrey,
+    0px 12px 5px #999;
 }
 
 .back-btn {
@@ -90,6 +90,8 @@ h1 {
   border: #081d25;
   color: #a3a3a3;
   font-weight: bold;
+  box-shadow: inset 0px 1px 0px grey, 0px 4px 0px 0px lightgrey,
+    0px 8px 5px #999;
 }
 
 .find-out-btn:hover,
